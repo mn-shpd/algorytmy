@@ -1,0 +1,68 @@
+///////////////////////////////////////////////
+
+TESTY DLA KORZYSTNYCH WARTOSCI M (LICZBY PIERWSZE)
+
+Wartosc M: 1009 	 Ilosc kluczy: 2018
+
+Ilosc zerowych pozycji w tablicy T: 133
+Maksymalna wartosc w T: 10
+Srednia wartosc pozycji niezerowych: 2.303653
+
+Wartosc M: 1229 	 Ilosc kluczy: 2458
+
+Ilosc zerowych pozycji w tablicy T: 163
+Maksymalna wartosc w T: 7
+Srednia wartosc pozycji niezerowych: 2.305816
+
+Wartosc M: 1423 	 Ilosc kluczy: 2846
+
+Ilosc zerowych pozycji w tablicy T: 176
+Maksymalna wartosc w T: 9
+Srednia wartosc pozycji niezerowych: 2.282278
+
+Wartosc M: 1657 	 Ilosc kluczy: 3314
+
+Ilosc zerowych pozycji w tablicy T: 220
+Maksymalna wartosc w T: 8
+Srednia wartosc pozycji niezerowych: 2.306193
+
+Wartosc M: 1871 	 Ilosc kluczy: 3742
+
+Ilosc zerowych pozycji w tablicy T: 241
+Maksymalna wartosc w T: 8
+Srednia wartosc pozycji niezerowych: 2.295706
+
+/////////////////////////////////////////////////
+
+TESTY DLA NIEKORZYSTNYCH WARTOSCI M
+
+Wartosc M: 1001 	 Ilosc kluczy: 2002
+
+Ilosc zerowych pozycji w tablicy T: 343
+Maksymalna wartosc w T: 10
+Srednia wartosc pozycji niezerowych: 3.042553
+
+Wartosc M: 1250 	 Ilosc kluczy: 2500
+
+Ilosc zerowych pozycji w tablicy T: 167
+Maksymalna wartosc w T: 9
+Srednia wartosc pozycji niezerowych: 2.308403
+
+Wartosc M: 1484 	 Ilosc kluczy: 2968
+
+Ilosc zerowych pozycji w tablicy T: 185
+Maksymalna wartosc w T: 9
+Srednia wartosc pozycji niezerowych: 2.284834
+
+Wartosc M: 1671 	 Ilosc kluczy: 3342
+
+Ilosc zerowych pozycji w tablicy T: 225
+Maksymalna wartosc w T: 9
+Srednia wartosc pozycji niezerowych: 2.311203
+
+Wartosc M: 1870 	 Ilosc kluczy: 3740
+
+Ilosc zerowych pozycji w tablicy T: 611
+Maksymalna wartosc w T: 11
+Srednia wartosc pozycji niezerowych: 2.970612
+

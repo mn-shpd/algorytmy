@@ -1,0 +1,56 @@
+F(n) = n*n*n*n*n*n*log(n)
+
+log(n) wystepuje we wzorze, poniewaz rekurencja dzieli operacje na 2 podzbiory w "nieskonczonosc"
+n*n - z racji tego, ze rekurencja jest wolna
+n*n*n*n - 4 petle
+
+//////////////////////////////////////
+Dla macierzy skladajacych sie z 0 i 1.
+//////////////////////////////////////
+
+W = 6 	n: 5 	Czas: 0.0000679260 	Wspolczynnik: 370218581.71809
+W = 6 	n: 10 	Czas: 0.0022598850 	Wspolczynnik: 1018894807.91901
+W = 8 	n: 15 	Czas: 0.0107516920 	Wspolczynnik: 2868979535.67958
+W = 12 	n: 20 	Czas: 0.0387328460 	Wspolczynnik: 4949981354.51899
+W = 8 	n: 25 	Czas: 0.1532855670 	Wspolczynnik: 5126760275.35399
+W = 10 	n: 30 	Czas: 0.4097765360 	Wspolczynnik: 6050792745.32134
+W = 10 	n: 35 	Czas: 0.9847449050 	Wspolczynnik: 6636920986.50297
+W = 11 	n: 40 	Czas: 2.2437869620 	Wspolczynnik: 6733995027.13158
+W = 14 	n: 45 	Czas: 4.7584843270 	Wspolczynnik: 6642794418.62953
+W = 12 	n: 50 	Czas: 9.3329542970 	Wspolczynnik: 6549411634.79853
+W = 12 	n: 55 	Czas: 16.2808202780 	Wspolczynnik: 6813265417.28051
+W = 13 	n: 60 	Czas: 26.4345618510 	Wspolczynnik: 7226363008.08625
+
+/////////////////////////////////////////
+Dla macierzy skladajacych sie z samych 0.
+/////////////////////////////////////////
+
+W = 0 	n: 5 	Czas: 0.0000907460 	Wspolczynnik: 277119293.21163
+W = 0 	n: 10 	Czas: 0.0033278450 	Wspolczynnik: 691914765.55971
+W = 0 	n: 15 	Czas: 0.0094064050 	Wspolczynnik: 3279295790.67985
+W = 0 	n: 20 	Czas: 0.0398580290 	Wspolczynnik: 4810244518.29907
+W = 0 	n: 25 	Czas: 0.1520205880 	Wspolczynnik: 5169420576.64395
+W = 0 	n: 30 	Czas: 0.4117531650 	Wspolczynnik: 6021745798.19371
+W = 0 	n: 35 	Czas: 0.9934591740 	Wspolczynnik: 6578704286.38910
+W = 0 	n: 40 	Czas: 2.2528092880 	Wspolczynnik: 6707025900.74313
+W = 0 	n: 45 	Czas: 4.6905100030 	Wspolczynnik: 6739061020.72365
+W = 0 	n: 50 	Czas: 8.7773027190 	Wspolczynnik: 6964025443.43131
+W = 0 	n: 55 	Czas: 15.3722794300 	Wspolczynnik: 7215946748.18220
+W = 0 	n: 60 	Czas: 25.2667441280 	Wspolczynnik: 7560362305.77663
+
+/////////////////////////////////////////
+Dla macierzy skladajacych sie z samych 1.
+/////////////////////////////////////////
+
+W = 25 		n: 5 	Czas: 0.0001198820 	Wspolczynnik: 209768500.54039
+W = 100 	n: 10 	Czas: 0.0034273400 	Wspolczynnik: 671828617.23495
+W = 225 	n: 15 	Czas: 0.0092682510 	Wspolczynnik: 3328177486.98539
+W = 400 	n: 20 	Czas: 0.0395027990 	Wspolczynnik: 4853500773.64025
+W = 625 	n: 25 	Czas: 0.1550291600 	Wspolczynnik: 5069100262.69066
+W = 900 	n: 30 	Czas: 0.4602264140 	Wspolczynnik: 5387506704.97524
+W = 1225 	n: 35 	Czas: 0.9951372640 	Wspolczynnik: 6567610683.24980
+W = 1600 	n: 40 	Czas: 2.2434059740 	Wspolczynnik: 6735138632.58112
+W = 2025 	n: 45 	Czas: 4.6786665720 	Wspolczynnik: 6756120070.12918
+W = 2500 	n: 50 	Czas: 8.7979701520 	Wspolczynnik: 6947666155.23462
+W = 3025 	n: 55 	Czas: 15.2505531720 	Wspolczynnik: 7273542704.58306
+W = 3600 	n: 60 	Czas: 25.2742180580 	Wspolczynnik: 7558126603.82461

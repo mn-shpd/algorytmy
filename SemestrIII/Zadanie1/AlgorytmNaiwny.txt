@@ -1,0 +1,72 @@
+6 petli. W najgorszym przypadku kazda petla wykona sie n razy.
+
+//////////////////////////////////////
+Dla macierzy skladajacych sie z 0 i 1.
+//////////////////////////////////////
+
+F(n)=n*n*n*n*n*n
+
+W = 4 	n: 5 	Czas: 0.0000293430 	Wspolczynnik: 532494973.24746
+W = 6 	n: 10 	Czas: 0.0005576780 	Wspolczynnik: 1793149451.83421
+W = 10 	n: 15 	Czas: 0.0049397040 	Wspolczynnik: 2305932703.65998
+W = 8 	n: 20 	Czas: 0.0086631250 	Wspolczynnik: 7387634369.81459
+W = 10 	n: 25 	Czas: 0.0225462480 	Wspolczynnik: 10828436953.23497
+W = 12 	n: 30 	Czas: 0.0621404790 	Wspolczynnik: 11731483434.49364
+W = 10 	n: 35 	Czas: 0.1541102150 	Wspolczynnik: 11928252938.97617
+W = 13 	n: 40 	Czas: 0.3414903700 	Wspolczynnik: 11994481718.47423
+W = 10 	n: 45 	Czas: 0.6648720230 	Wspolczynnik: 12489269119.08881
+W = 10 	n: 50 	Czas: 1.2588917490 	Wspolczynnik: 12411710548.11640
+W = 14 	n: 55 	Czas: 2.1863258840 	Wspolczynnik: 12660802686.17448
+W = 12 	n: 60 	Czas: 3.6405173130 	Wspolczynnik: 12815761055.00037
+W = 12 	n: 65 	Czas: 5.8355899820 	Wspolczynnik: 12923952994.92102
+W = 15 	n: 70 	Czas: 9.0587468230 	Wspolczynnik: 12987337244.18606
+W = 15 	n: 75 	Czas: 13.6076690560 	Wspolczynnik: 13079280139.20388
+W = 17 	n: 80 	Czas: 20.5975650780 	Wspolczynnik: 12726941218.89158
+
+/////////////////////////////////////////
+Dla macierzy skladajacych sie z samych 0.
+/////////////////////////////////////////
+
+F(n)=n*n*n*n*n*n
+
+W = 0 	n: 5 	Czas: 0.0000385190 	Wspolczynnik: 405643967.91194
+W = 0 	n: 10 	Czas: 0.0007887930 	Wspolczynnik: 1267759729.10510
+W = 0 	n: 15 	Czas: 0.0036415610 	Wspolczynnik: 3127951172.58780
+W = 0 	n: 20 	Czas: 0.0074906200 	Wspolczynnik: 8544019053.16249
+W = 0 	n: 25 	Czas: 0.0221016970 	Wspolczynnik: 11046238892.87777
+W = 0 	n: 30 	Czas: 0.0619590000 	Wspolczynnik: 11765845155.66746
+W = 0 	n: 35 	Czas: 0.1558291830 	Wspolczynnik: 11796671134.44341
+W = 0 	n: 40 	Czas: 0.3317064790 	Wspolczynnik: 12348266492.55772
+W = 0 	n: 45 	Czas: 0.6628367020 	Wspolczynnik: 12527618944.37161
+W = 0 	n: 50 	Czas: 1.2553949530 	Wspolczynnik: 12446282313.51509
+W = 0 	n: 55 	Czas: 2.3117271520 	Wspolczynnik: 11974008524.77421
+W = 0 	n: 60 	Czas: 4.0147554240 	Wspolczynnik: 11621131320.00342
+W = 0 	n: 65 	Czas: 6.2287234450 	Wspolczynnik: 12108241968.19032
+W = 0 	n: 70 	Czas: 9.6444814090 	Wspolczynnik: 12198582278.38075
+W = 0 	n: 75 	Czas: 13.8105520700 	Wspolczynnik: 12887139827.78532
+W = 0 	n: 80 	Czas: 20.4331797240 	Wspolczynnik: 12829329724.54092
+
+/////////////////////////////////////////
+Dla macierzy skladajacych sie z samych 1.
+/////////////////////////////////////////
+
+F(n)=n*n*n*n*n*n
+
+W = 25 		n: 5 	Czas: 0.0000245770 	Wspolczynnik: 635757008.58526
+W = 100 	n: 10 	Czas: 0.0006493310 	Wspolczynnik: 1540046601.81017
+W = 225 	n: 15 	Czas: 0.0051174560 	Wspolczynnik: 2225837408.27474
+W = 400 	n: 20 	Czas: 0.0094102130 	Wspolczynnik: 6801121292.36607
+W = 625 	n: 25 	Czas: 0.0220116200 	Wspolczynnik: 11091442837.91924
+W = 900 	n: 30 	Czas: 0.0631140020 	Wspolczynnik: 11550527250.67252
+W = 1225 	n: 35 	Czas: 0.1588414450 	Wspolczynnik: 11572959595.02257
+W = 1600 	n: 40 	Czas: 0.3342237110 	Wspolczynnik: 12255264558.41429
+W = 2025 	n: 45 	Czas: 0.6694995750 	Wspolczynnik: 12402943833.08608
+W = 2500 	n: 50 	Czas: 1.2471406170 	Wspolczynnik: 12528659388.53469
+W = 3025 	n: 55 	Czas: 2.1759336170 	Wspolczynnik: 12721270726.61519
+W = 3600 	n: 60 	Czas: 3.6536679670 	Wspolczynnik: 12769633262.08016
+W = 4225 	n: 65 	Czas: 5.8554724020 	Wspolczynnik: 12880069351.74690
+W = 4900 	n: 70 	Czas: 9.0278515390 	Wspolczynnik: 13031782754.92907
+W = 5625 	n: 75 	Czas: 13.6109793930 	Wspolczynnik: 13076099117.19745
+W = 6400 	n: 80 	Czas: 19.9384724260 	Wspolczynnik: 13147647141.62160
+
+

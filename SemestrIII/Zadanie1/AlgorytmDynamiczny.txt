@@ -1,0 +1,142 @@
+2 petle w wywolywanej funkcji w algorytmie i 3 petle w samym algorytmie.
+
+//////////////////////////////////////
+Dla macierzy skladajacych sie z 0 i 1.
+//////////////////////////////////////
+
+F(n) = n*n*n+n*n
+
+W = 4 	n: 5 	Czas: 0.0000106400 	Wspolczynnik: 14097744.36090
+W = 7 	n: 10 	Czas: 0.0000190090 	Wspolczynnik: 57867326.00347
+W = 12 	n: 15 	Czas: 0.0000834930 	Wspolczynnik: 43117387.08634
+W = 12 	n: 20 	Czas: 0.0001895180 	Wspolczynnik: 44322966.68390
+W = 8 	n: 25 	Czas: 0.0003878310 	Wspolczynnik: 41899693.42317
+W = 10 	n: 30 	Czas: 0.0005903490 	Wspolczynnik: 47260179.99522
+W = 10 	n: 35 	Czas: 0.0009218050 	Wspolczynnik: 47840920.80212
+W = 12 	n: 40 	Czas: 0.0011546280 	Wspolczynnik: 56814835.60073
+W = 12 	n: 45 	Czas: 0.0006943150 	Wspolczynnik: 134161007.61182
+W = 16 	n: 50 	Czas: 0.0006586660 	Wspolczynnik: 193573070.41809
+W = 11 	n: 55 	Czas: 0.0008667710 	Wspolczynnik: 195438010.73178
+W = 16 	n: 60 	Czas: 0.0011416220 	Wspolczynnik: 192357890.79047
+W = 12 	n: 65 	Czas: 0.0015092470 	Wspolczynnik: 184761009.96060
+W = 15 	n: 70 	Czas: 0.0012819970 	Wspolczynnik: 271373489.95356
+W = 18 	n: 75 	Czas: 0.0013985930 	Wspolczynnik: 305664335.51433
+W = 15 	n: 80 	Czas: 0.0017007780 	Wspolczynnik: 304801684.87598
+W = 13 	n: 85 	Czas: 0.0020655480 	Wspolczynnik: 300816054.62570
+W = 15 	n: 90 	Czas: 0.0029516870 	Wspolczynnik: 249721599.88508
+W = 14 	n: 95 	Czas: 0.0028638530 	Wspolczynnik: 302529494.35603
+W = 19 	n: 100 	Czas: 0.0033997450 	Wspolczynnik: 297081104.61226
+W = 18 	n: 105 	Czas: 0.0037643380 	Wspolczynnik: 310452993.32844
+W = 16 	n: 110 	Czas: 0.0044776600 	Wspolczynnik: 299955780.47462
+W = 15 	n: 115 	Czas: 0.0053250740 	Wspolczynnik: 288089893.21087
+W = 14 	n: 120 	Czas: 0.0057037690 	Wspolczynnik: 305482217.10942
+W = 18 	n: 125 	Czas: 0.0062416450 	Wspolczynnik: 315421655.66930
+W = 20 	n: 130 	Czas: 0.0070568860 	Wspolczynnik: 313721944.77848
+W = 15 	n: 135 	Czas: 0.0078875220 	Wspolczynnik: 314243180.55785
+W = 15 	n: 140 	Czas: 0.0088640620 	Wspolczynnik: 311775797.59708
+W = 16 	n: 145 	Czas: 0.0097346860 	Wspolczynnik: 315331177.60552
+W = 15 	n: 150 	Czas: 0.0108760680 	Wspolczynnik: 312383114.92720
+W = 14 	n: 155 	Czas: 0.0161698790 	Wspolczynnik: 231782810.49598
+W = 15 	n: 160 	Czas: 0.0148341580 	Wspolczynnik: 277845227.21141
+W = 16 	n: 165 	Czas: 0.0145931800 	Wspolczynnik: 309689183.57753
+W = 16 	n: 170 	Czas: 0.0156191560 	Wspolczynnik: 316399938.63945
+W = 15 	n: 175 	Czas: 0.0170133090 	Wspolczynnik: 316810797.94648
+W = 18 	n: 180 	Czas: 0.0186501680 	Wspolczynnik: 314442207.70558
+W = 17 	n: 185 	Czas: 0.0200574920 	Wspolczynnik: 317380158.99495
+W = 15 	n: 190 	Czas: 0.0217074850 	Wspolczynnik: 317636980.97684
+W = 16 	n: 195 	Czas: 0.0236342290 	Wspolczynnik: 315343479.15475
+W = 18 	n: 200 	Czas: 0.0254478360 	Wspolczynnik: 315940420.23848
+
+/////////////////////////////////////////
+Dla macierzy skladajacych sie z samych 0.
+/////////////////////////////////////////
+
+F(n) = n*n*n+n*n
+
+W = 0 	n: 5 	Czas: 0.0000090080 	Wspolczynnik: 16651865.00888
+W = 0 	n: 10 	Czas: 0.0000244300 	Wspolczynnik: 45026606.63119
+W = 0 	n: 15 	Czas: 0.0000762300 	Wspolczynnik: 47225501.77096
+W = 0 	n: 20 	Czas: 0.0001431220 	Wspolczynnik: 58691186.54015
+W = 0 	n: 25 	Czas: 0.0002374780 	Wspolczynnik: 68427391.16887
+W = 0 	n: 30 	Czas: 0.0003596080 	Wspolczynnik: 77584480.87918
+W = 0 	n: 35 	Czas: 0.0005217160 	Wspolczynnik: 84528747.44114
+W = 0 	n: 40 	Czas: 0.0007708710 	Wspolczynnik: 85098544.37383
+W = 0 	n: 45 	Czas: 0.0015126730 	Wspolczynnik: 61579733.35942
+W = 0 	n: 50 	Czas: 0.0011353300 	Wspolczynnik: 112302150.03567
+W = 0 	n: 55 	Czas: 0.0007927830 	Wspolczynnik: 213677639.40448
+W = 0 	n: 60 	Czas: 0.0007211570 	Wspolczynnik: 304510668.27334
+W = 0 	n: 65 	Czas: 0.0009121730 	Wspolczynnik: 305698590.07009
+W = 0 	n: 70 	Czas: 0.0014663160 	Wspolczynnik: 237261272.46787
+W = 0 	n: 75 	Czas: 0.0013858470 	Wspolczynnik: 308475610.94407
+W = 0 	n: 80 	Czas: 0.0016758670 	Wspolczynnik: 309332423.15768
+W = 0 	n: 85 	Czas: 0.0020261230 	Wspolczynnik: 306669437.14671
+W = 0 	n: 90 	Czas: 0.0029349590 	Wspolczynnik: 251144905.26103
+W = 0 	n: 95 	Czas: 0.0030571410 	Wspolczynnik: 283402041.31900
+W = 0 	n: 100 	Czas: 0.0032396580 	Wspolczynnik: 311761303.19929
+W = 0 	n: 105 	Czas: 0.0040247470 	Wspolczynnik: 290366077.66898
+W = 0 	n: 110 	Czas: 0.0042954860 	Wspolczynnik: 312677075.42290
+W = 0 	n: 115 	Czas: 0.0050807820 	Wspolczynnik: 301941708.97315
+W = 0 	n: 120 	Czas: 0.0055768350 	Wspolczynnik: 312435279.15027
+W = 0 	n: 125 	Czas: 0.0062555320 	Wspolczynnik: 314721433.76455
+W = 0 	n: 130 	Czas: 0.0070482390 	Wspolczynnik: 314106828.67025
+W = 0 	n: 135 	Czas: 0.0078585780 	Wspolczynnik: 315400572.46998
+W = 0 	n: 140 	Czas: 0.0087795630 	Wspolczynnik: 314776487.16684
+W = 0 	n: 145 	Czas: 0.0097143060 	Wspolczynnik: 315992722.48579
+W = 0 	n: 150 	Czas: 0.0106988120 	Wspolczynnik: 317558622.39658
+W = 0 	n: 155 	Czas: 0.0131383290 	Wspolczynnik: 285264587.30026
+W = 0 	n: 160 	Czas: 0.0167591200 	Wspolczynnik: 245931767.30043
+W = 0 	n: 165 	Czas: 0.0148340210 	Wspolczynnik: 304661156.94457
+W = 0 	n: 170 	Czas: 0.0157095540 	Wspolczynnik: 314579268.13199
+W = 0 	n: 175 	Czas: 0.0169913140 	Wspolczynnik: 317220904.75169
+W = 0 	n: 180 	Czas: 0.0184153900 	Wspolczynnik: 318451034.70521
+W = 0 	n: 185 	Czas: 0.0201176960 	Wspolczynnik: 316430370.55536
+W = 0 	n: 190 	Czas: 0.0217566760 	Wspolczynnik: 316918816.09121
+W = 0 	n: 195 	Czas: 0.0237059760 	Wspolczynnik: 314389080.62676
+W = 0 	n: 200 	Czas: 0.0253770890 	Wspolczynnik: 316821208.29540
+
+/////////////////////////////////////////
+Dla macierzy skladajacych sie z samych 1.
+/////////////////////////////////////////
+
+F(n) = n*n*n+n*n
+
+W = 25 		n: 5 	Czas: 0.0000083090 	Wspolczynnik: 18052713.92466
+W = 100 	n: 10 	Czas: 0.0000194250 	Wspolczynnik: 56628056.62806
+W = 225 	n: 15 	Czas: 0.0000653660 	Wspolczynnik: 55074503.56454
+W = 400 	n: 20 	Czas: 0.0001533390 	Wspolczynnik: 54780584.19580
+W = 625 	n: 25 	Czas: 0.0002799870 	Wspolczynnik: 58038408.92613
+W = 900 	n: 30 	Czas: 0.0004057320 	Wspolczynnik: 68764603.23563
+W = 1225 	n: 35 	Czas: 0.0005891560 	Wspolczynnik: 74852840.33431
+W = 1600 	n: 40 	Czas: 0.0009027010 	Wspolczynnik: 72670795.75629
+W = 2025 	n: 45 	Czas: 0.0009527650 	Wspolczynnik: 97768075.02375
+W = 2500 	n: 50 	Czas: 0.0006215200 	Wspolczynnik: 205142231.94748
+W = 3025 	n: 55 	Czas: 0.0007913650 	Wspolczynnik: 214060515.69124
+W = 3600 	n: 60 	Czas: 0.0009986110 	Wspolczynnik: 219905448.66820
+W = 4225 	n: 65 	Czas: 0.0010983990 	Wspolczynnik: 253869495.51119
+W = 4900 	n: 70 	Czas: 0.0013512330 	Wspolczynnik: 257468549.09553
+W = 5625 	n: 75 	Czas: 0.0015078360 	Wspolczynnik: 283518897.28061
+W = 6400 	n: 80 	Czas: 0.0018117390 	Wspolczynnik: 286133929.88725
+W = 7225 	n: 85 	Czas: 0.0021573870 	Wspolczynnik: 288010449.67824
+W = 8100 	n: 90 	Czas: 0.0026481400 	Wspolczynnik: 278346310.99564
+W = 9025 	n: 95 	Czas: 0.0032132710 	Wspolczynnik: 269631786.42573
+W = 10000 	n: 100 	Czas: 0.0032808110 	Wspolczynnik: 307850711.30278
+W = 11025 	n: 105 	Czas: 0.0041323460 	Wspolczynnik: 282805457.23906
+W = 12100 	n: 110 	Czas: 0.0043007070 	Wspolczynnik: 312297489.69181
+W = 13225 	n: 115 	Czas: 0.0053274680 	Wspolczynnik: 287960434.48783
+W = 14400 	n: 120 	Czas: 0.0055752230 	Wspolczynnik: 312525615.56731
+W = 15625 	n: 125 	Czas: 0.0062672410 	Wspolczynnik: 314133444.04659
+W = 16900 	n: 130 	Czas: 0.0070665090 	Wspolczynnik: 313294725.86818
+W = 18225 	n: 135 	Czas: 0.0082779550 	Wspolczynnik: 299421777.48007
+W = 19600 	n: 140 	Czas: 0.0090822110 	Wspolczynnik: 304287138.89162
+W = 21025 	n: 145 	Czas: 0.0101010890 	Wspolczynnik: 303892976.29196
+W = 22500 	n: 150 	Czas: 0.0110801060 	Wspolczynnik: 306630640.53719
+W = 24025 	n: 155 	Czas: 0.0160729870 	Wspolczynnik: 233180055.45578
+W = 25600 	n: 160 	Czas: 0.0153656230 	Wspolczynnik: 268235137.61857
+W = 27225 	n: 165 	Czas: 0.0155135200 	Wspolczynnik: 291316864.25776
+W = 28900 	n: 170 	Czas: 0.0157005050 	Wspolczynnik: 314760576.17255
+W = 30625 	n: 175 	Czas: 0.0170746780 	Wspolczynnik: 315672131.56231
+W = 32400 	n: 180 	Czas: 0.0185279310 	Wspolczynnik: 316516722.77925
+W = 34225 	n: 185 	Czas: 0.0202369830 	Wspolczynnik: 314565170.11454
+W = 36100 	n: 190 	Czas: 0.0218089740 	Wspolczynnik: 316158843.60264
+W = 38025 	n: 195 	Czas: 0.0236581070 	Wspolczynnik: 315025204.67931
+W = 40000 	n: 200 	Czas: 0.0254635150 	Wspolczynnik: 315745881.90201
